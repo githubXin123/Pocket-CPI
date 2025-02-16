@@ -17,7 +17,7 @@ Pocket-CPI: an explainable deep learning approach for prediction of compound-pro
 
 ## 🛠️ Data Preparation & Processing
 - Download three raw datasets (BIOSNAP, Metz, and BindingDB) from [here](https://drive.google.com/drive/folders/1THATwG_cxQvzn4-XWf19tGT9ugwBFYVP?usp=drive_link) and place them in the `Data` directory
-- Obtain protein PDB files from [here](https://drive.google.com/u/0/uc?id=16JTa7RjnJjxc8M1Ft73qgD3-1s3wtNBD&export=download), unzip and store them in the `pdb_file` directory
+- Obtain protein PDB files from [here](https://drive.google.com/file/d/1jK1wDX_PQ_ha4pOgB0CWCpKSPj8Vb8to/view?usp=drive_link), unzip and store them in the `pdb_file` directory
 
 ### Residue-level features
 `python extract_protein_feature.py`
