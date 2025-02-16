@@ -35,7 +35,7 @@ cd PocketMiner/src/
 Note: Protein pocket embeddings are calculated using the methodology from PocketMiner Reference
 
 ## 🛠️ Model Training
-`python model_test.py`
+`python model_training.py`
 
 ## 🛠️ Model Test
 `python model_test.py`
