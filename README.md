@@ -16,29 +16,29 @@ Pocket-CPI: an explainable deep learning approach for prediction of compound-pro
   * PocketMiner
 
 ## 🛠️ Data Preparation & Processing
-- Download three raw datasets (BIOSNAP, Metz, and BindingDB) from Dataset Source and place them in the Data directory
-- Obtain protein PDB files from PDB Source and store them in the pdb_file directory
+- Download three raw datasets (BIOSNAP, Metz, and BindingDB) from Dataset Source and place them in the `Data` directory
+- Obtain protein PDB files from PDB Source and store them in the `pdb_file` directory
 
 ### Residue-level features
-python extract_protein_feature.py
+`python extract_protein_feature.py`
 
 ### Contact map features
-python extract_protein_contactMap.py
+`python extract_protein_contactMap.py`
 
 ### Residue degree features
-python extract_protein_degree.py
+`python extract_protein_degree.py`
 
 ### Pocket features (requires PocketMiner)
 cd PocketMiner/src/
-python extract_protein_pocket.py
+`python extract_protein_pocket.py`
 
 Note: Protein pocket embeddings are calculated using the methodology from PocketMiner Reference
 
-## Model Training
-python model_test.py
+## 🛠️ Model Training
+`python model_test.py`
 
-## Model Test
-python model_test.py
+## 🛠️ Model Test
+`python model_test.py`
 
 
 
