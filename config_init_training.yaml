@@ -1,0 +1,23 @@
+warmup_epochs: 3
+epochs: 50
+early_stop_patience: 10
+
+model_fix:
+  prot_in_dim: 1280    
+  prot_hidden_dim: 512 
+  node_dim: 52
+  edge_dim: 10
+  num_layer: 2
+  prot_mol_dim: 256
+
+model_opt:
+  inter_heads: 8
+  num_cluster: 10
+
+weight_pocket: 0.5
+weight_oloss: 5
+batch_size: 64
+lr: 0.00003
+weight_decay: 1e-6
+num_worers_train: 4
+prefetch_factor: 4
