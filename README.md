@@ -32,7 +32,7 @@ Pocket-CPI: an explainable deep learning approach for prediction of compound-pro
 cd PocketMiner/src/
 `python extract_protein_pocket.py`
 
-Note: Protein pocket embeddings are calculated using the methodology from [PocketMiner](https://github.com/Mickdub/gvp/tree/pocket_pred) Reference
+Note: Protein pocket embeddings are calculated using the methodology from [PocketMiner](https://github.com/Mickdub/gvp/tree/pocket_pred) code.
 
 ## 🛠️ Model Training
 `python model_training.py`
